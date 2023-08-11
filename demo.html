@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+var obj=[
+    {Pname:"Headphone",price:1700,category:"headphone",Pimage:"pic1.jpg"},
+    {Pname:"Headphone2",price:1701,category:"headphone2",Pimage:"pic2.jpg"},
+    {Pname:"Headphone3",price:1702,category:"headphone3",Pimage:"pic3.jpg"},
+    {Pname:"Headphone4",price:1703,category:"headphone4",Pimage:"pic7.jpg"},
+    {Pname:"Headphone5",price:1704,category:"headphone5",Pimage:"pic8.jpg"}
+   
+]
+
+for(var i=0;i<obj.length;i++){
+    document.write("<img src="+obj[i].Pimage+" height='100px' width='200px'> <h2>Product Name="+obj[i].Pname+"</h2>")
+}
+
+
+/*
+for(var i=0;i<obj.length;i++){
+document.write(`
+<div>
+<img src=${obj[i].Pimage} height="100px" width="150px">
+<h2>Product Name=${obj[i].Pname}</h2>
+<p>Price=${obj[i].price}  category=${obj[i].category} </p>
+</div>    
+`)
+}
+*/ 
+
+    </script>
+</body>
+</html>
